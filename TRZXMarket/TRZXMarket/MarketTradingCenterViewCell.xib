@@ -20,11 +20,8 @@
                 <subviews>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jBG-Kp-ECc">
                         <rect key="frame" x="0.0" y="0.0" width="160" height="90"/>
-                        <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="boolean" keyPath="masksToBounds" value="YES"/>
-                        </userDefinedRuntimeAttributes>
                     </imageView>
-                    <imageView userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="9762EF1C-E3C7-45D4-A14B-833135A7468E" translatesAutoresizingMaskIntoConstraints="NO" id="Vhq-P6-ATR">
+                    <imageView userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="7B1FA6BD-9D2D-4CB7-A4E1-0860966DB5A7" translatesAutoresizingMaskIntoConstraints="NO" id="Vhq-P6-ATR">
                         <rect key="frame" x="0.0" y="50" width="160" height="30"/>
                         <color key="backgroundColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -37,9 +34,6 @@
                             <constraint firstAttribute="height" constant="30" id="4a9-09-Uyf"/>
                             <constraint firstAttribute="width" constant="30" id="6hZ-dW-Ja2"/>
                         </constraints>
-                        <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="boolean" keyPath="masksToBounds" value="YES"/>
-                        </userDefinedRuntimeAttributes>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="北京股权交易中心" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fug-kv-ekG">
                         <rect key="frame" x="41" y="57" width="119" height="17"/>
@@ -72,7 +66,7 @@
         </collectionViewCell>
     </objects>
     <resources>
-        <image name="9762EF1C-E3C7-45D4-A14B-833135A7468E" width="375" height="64">
+        <image name="7B1FA6BD-9D2D-4CB7-A4E1-0860966DB5A7" width="375" height="64">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPT5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQrLjE3OlUkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
