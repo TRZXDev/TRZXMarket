@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="TRZXCollegeTabSectionHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="30"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="29"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xjm-lO-j7k">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="29.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="college_recommend.png" translatesAutoresizingMaskIntoConstraints="NO" id="r9D-8y-0bp">
+                                <rect key="frame" x="12" y="8" width="5" height="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="5" id="Bfm-Z1-zwc"/>
+                                    <constraint firstAttribute="height" constant="14" id="RSr-WL-BhD"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="一对一咨询" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tc1-wG-2tQ">
+                                <rect key="frame" x="25" y="4.5" width="114" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="114" id="1gP-iR-cSo"/>
+                                    <constraint firstAttribute="height" constant="21" id="Ktg-Xx-1xk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <color key="textColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="r9D-8y-0bp" firstAttribute="centerY" secondItem="Xjm-lO-j7k" secondAttribute="centerY" id="BZA-20-LH7"/>
+                            <constraint firstItem="Tc1-wG-2tQ" firstAttribute="leading" secondItem="r9D-8y-0bp" secondAttribute="trailing" constant="8" id="opb-ts-wXO"/>
+                            <constraint firstItem="Tc1-wG-2tQ" firstAttribute="centerY" secondItem="Xjm-lO-j7k" secondAttribute="centerY" id="szW-G2-u3E"/>
+                            <constraint firstItem="r9D-8y-0bp" firstAttribute="leading" secondItem="Xjm-lO-j7k" secondAttribute="leading" constant="12" id="v0w-7R-HO4"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Xjm-lO-j7k" secondAttribute="bottom" id="Hv5-53-oye"/>
+                    <constraint firstItem="Xjm-lO-j7k" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Ou7-jn-to5"/>
+                    <constraint firstAttribute="trailing" secondItem="Xjm-lO-j7k" secondAttribute="trailing" id="QIA-Pe-e1Z"/>
+                    <constraint firstItem="Xjm-lO-j7k" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="dt8-SF-Ltw"/>
+                    <constraint firstAttribute="bottom" secondItem="Xjm-lO-j7k" secondAttribute="bottom" id="j7C-m4-gD2"/>
+                    <constraint firstItem="Xjm-lO-j7k" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ohF-V9-BLG"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="Hv5-53-oye"/>
+                        <exclude reference="Ou7-jn-to5"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+            <connections>
+                <outlet property="titleLabel" destination="Tc1-wG-2tQ" id="CmM-nJ-hgV"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="college_recommend.png" width="5" height="14"/>
+    </resources>
+</document>
