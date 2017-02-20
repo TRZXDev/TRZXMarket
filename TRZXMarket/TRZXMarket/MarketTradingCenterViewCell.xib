@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -18,20 +18,20 @@
                 <rect key="frame" x="0.0" y="0.0" width="160" height="90"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="展位图.png" translatesAutoresizingMaskIntoConstraints="NO" id="jBG-Kp-ECc">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jBG-Kp-ECc">
                         <rect key="frame" x="0.0" y="0.0" width="160" height="90"/>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="boolean" keyPath="masksToBounds" value="YES"/>
                         </userDefinedRuntimeAttributes>
                     </imageView>
-                    <imageView userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="8832F12F-C8B2-4A82-AE2D-66D893305F01" translatesAutoresizingMaskIntoConstraints="NO" id="Vhq-P6-ATR">
+                    <imageView userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="9762EF1C-E3C7-45D4-A14B-833135A7468E" translatesAutoresizingMaskIntoConstraints="NO" id="Vhq-P6-ATR">
                         <rect key="frame" x="0.0" y="50" width="160" height="30"/>
                         <color key="backgroundColor" red="0.28235294119999998" green="0.28235294119999998" blue="0.28235294119999998" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="30" id="ZTA-B6-ArR"/>
                         </constraints>
                     </imageView>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="立即登陆.png" translatesAutoresizingMaskIntoConstraints="NO" id="aL1-Dn-MhP">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aL1-Dn-MhP">
                         <rect key="frame" x="5" y="50" width="30" height="30"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="30" id="4a9-09-Uyf"/>
@@ -72,7 +72,7 @@
         </collectionViewCell>
     </objects>
     <resources>
-        <image name="8832F12F-C8B2-4A82-AE2D-66D893305F01" width="375" height="64">
+        <image name="9762EF1C-E3C7-45D4-A14B-833135A7468E" width="375" height="64">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPT5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQrLjE3OlUkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -1725,7 +1725,5 @@ AYDTAAGA1gABgNsAAYDqAAGA7gABgPUAAYD9AAGBCgABgQ8AAYERAAGBEwABgRgAAYEgAAGBIwABgSgA
 AYEwAAGBMwABgUUAAYFIAAGBTQAAAAAAAAQBAAAAAAAAAEEAAAAAAAAAAAAAAAAAAYFPA
 </mutableData>
         </image>
-        <image name="展位图.png" width="530" height="298"/>
-        <image name="立即登陆.png" width="168" height="168"/>
     </resources>
 </document>
