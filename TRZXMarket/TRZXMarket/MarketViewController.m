@@ -61,9 +61,6 @@
     [self requestSignal_list];
     [self requestSignal_findPageList];
 
-
-
-
 }
 
 // 发起请求
