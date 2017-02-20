@@ -26,8 +26,9 @@
 
     if (_recomend!=recomend) {
         _recomend = recomend;
-        [_tradingCenterCoverImageView setImageWithURL:[NSURL URLWithString:recomend[@"image"]] placeholderImage:[UIImage imageNamed:@"展位图"]];
-        [_iconImageView setImageWithURL:[NSURL URLWithString:recomend[@"logo"]] placeholderImage:[UIImage imageNamed:@"展位图"]];
+
+        [_tradingCenterCoverImageView setImageWithURL:[NSURL URLWithString:recomend[@"image"]]];
+        [_iconImageView setImageWithURL:[NSURL URLWithString:recomend[@"logo"]]];
         _nameLabel.text = _recomend[@"name"];
     }
 }

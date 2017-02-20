@@ -15,10 +15,10 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="黑透" translatesAutoresizingMaskIntoConstraints="NO" id="xE2-Uf-kZA">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="黑透.png" translatesAutoresizingMaskIntoConstraints="NO" id="xE2-Uf-kZA">
                     <rect key="frame" x="-10" y="-10" width="395" height="74"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="252" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" image="kipo" translatesAutoresizingMaskIntoConstraints="NO" id="66p-kN-kmm">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="252" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" image="kipo.png" translatesAutoresizingMaskIntoConstraints="NO" id="66p-kN-kmm">
                     <rect key="frame" x="10" y="34" width="117" height="16"/>
                 </imageView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R8C-JN-Jf7">
@@ -27,11 +27,11 @@
                         <constraint firstAttribute="height" constant="44" id="7V8-id-c7E"/>
                         <constraint firstAttribute="width" constant="44" id="OEd-EZ-5pI"/>
                     </constraints>
-                    <state key="normal" image="发布"/>
+                    <state key="normal" image="发布.png"/>
                 </button>
                 <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V8h-LE-SW6">
                     <rect key="frame" x="137" y="30" width="184" height="24"/>
-                    <state key="normal" image="market搜索"/>
+                    <state key="normal" image="搜索.png"/>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="boolean" keyPath="masksToBounds" value="NO"/>
                     </userDefinedRuntimeAttributes>
@@ -62,9 +62,9 @@
         </view>
     </objects>
     <resources>
-        <image name="kipo" width="117" height="16"/>
-        <image name="market搜索" width="196" height="24"/>
-        <image name="发布" width="22" height="19"/>
-        <image name="黑透" width="375" height="64"/>
+        <image name="kipo.png" width="117" height="16"/>
+        <image name="发布.png" width="22" height="19"/>
+        <image name="搜索.png" width="196" height="24"/>
+        <image name="黑透.png" width="375" height="64"/>
     </resources>
 </document>

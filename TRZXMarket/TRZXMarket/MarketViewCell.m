@@ -22,7 +22,7 @@
     if (_project!=project) {
         _project = project;
 
-        [_projectCoversImageView setImageWithURL:[NSURL URLWithString:project.projectImg] placeholderImage:[UIImage imageNamed:@"展位图"]];
+        [_projectCoversImageView setImageWithURL:[NSURL URLWithString:project.projectImg]];
         _nameLabel.text = project.name;
         _tradeInfoLabel.text = [NSString stringWithFormat:@"%@/%@",project.tradeInfo,project.areaName] ;
 //        _sourceLabel.text = [NSString stringWithFormat:@"项目来源:%@",project.companyName];
