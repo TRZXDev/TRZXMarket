@@ -263,8 +263,6 @@
 -(void)setZHScrollViewLB:(NSArray*)array{
 
     if (_zhScrollViewLB) {
-
-//        [self.marketTradingCenterView.headlineContentView removeAllSubviews];
         _zhScrollViewLB=nil;
     }
 
