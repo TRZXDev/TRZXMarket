@@ -55,8 +55,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-//    [self.view addSubview:self.marketNavHeadView];
     [self.view addSubview:self.marketTableView];
 
     [self requestSignal_home];
@@ -279,8 +277,6 @@
 // 四版头条点击事件
 - (void)headlineContentTap:(UITapGestureRecognizer *)tap
 {
-
-
 
 }
 
