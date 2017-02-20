@@ -111,11 +111,4 @@
     return [[[NSBundle mainBundle] loadNibNamed:NSStringFromClass(self) owner:nil options:nil] lastObject];
 }
 
-- (void)removeAllSubviews {
-    //[self.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
-    while (self.subviews.count) {
-        [self.subviews.lastObject removeFromSuperview];
-    }
-}
-
 @end

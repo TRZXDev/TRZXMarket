@@ -264,7 +264,7 @@
 
     if (_zhScrollViewLB) {
 
-        [self.marketTradingCenterView.headlineContentView removeAllSubviews];
+//        [self.marketTradingCenterView.headlineContentView removeAllSubviews];
         _zhScrollViewLB=nil;
     }
 

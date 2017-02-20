@@ -27,6 +27,5 @@
  */
 + (instancetype)viewFromXib;
 
-- (void)removeAllSubviews;
 
 @end
