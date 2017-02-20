@@ -17,7 +17,7 @@
 		71687D011E5AA3E700CF2218 /* MarketViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 71687CFF1E5AA3E700CF2218 /* MarketViewCell.m */; };
 		71687D021E5AA3E700CF2218 /* MarketViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71687D001E5AA3E700CF2218 /* MarketViewCell.xib */; };
 		71687D061E5AA4E500CF2218 /* TRZXMarketTabSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71687D041E5AA4E500CF2218 /* TRZXMarketTabSectionHeaderView.m */; };
-		71687D071E5AA4E500CF2218 /* TRZXCollegeTabSectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71687D051E5AA4E500CF2218 /* TRZXCollegeTabSectionHeaderView.xib */; };
+		71687D071E5AA4E500CF2218 /* TRZXMarketTabSectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71687D051E5AA4E500CF2218 /* TRZXMarketTabSectionHeaderView.xib */; };
 		71687D0B1E5AA51400CF2218 /* MarketCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71687D091E5AA51400CF2218 /* MarketCollectionView.m */; };
 		71687D0C1E5AA51400CF2218 /* MarketCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71687D0A1E5AA51400CF2218 /* MarketCollectionView.xib */; };
 		71687D101E5AA55F00CF2218 /* MarketCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 71687D0E1E5AA55F00CF2218 /* MarketCollectionViewCell.m */; };
@@ -64,7 +64,7 @@
 		71687D001E5AA3E700CF2218 /* MarketViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MarketViewCell.xib; sourceTree = "<group>"; };
 		71687D031E5AA4E500CF2218 /* TRZXMarketTabSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXMarketTabSectionHeaderView.h; sourceTree = "<group>"; };
 		71687D041E5AA4E500CF2218 /* TRZXMarketTabSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXMarketTabSectionHeaderView.m; sourceTree = "<group>"; };
-		71687D051E5AA4E500CF2218 /* TRZXCollegeTabSectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXCollegeTabSectionHeaderView.xib; sourceTree = "<group>"; };
+		71687D051E5AA4E500CF2218 /* TRZXMarketTabSectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXMarketTabSectionHeaderView.xib; sourceTree = "<group>"; };
 		71687D081E5AA51400CF2218 /* MarketCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketCollectionView.h; sourceTree = "<group>"; };
 		71687D091E5AA51400CF2218 /* MarketCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketCollectionView.m; sourceTree = "<group>"; };
 		71687D0A1E5AA51400CF2218 /* MarketCollectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MarketCollectionView.xib; sourceTree = "<group>"; };
@@ -172,7 +172,7 @@
 				71687CFC1E5A9C5F00CF2218 /* MarketViewController.m */,
 				71687D031E5AA4E500CF2218 /* TRZXMarketTabSectionHeaderView.h */,
 				71687D041E5AA4E500CF2218 /* TRZXMarketTabSectionHeaderView.m */,
-				71687D051E5AA4E500CF2218 /* TRZXCollegeTabSectionHeaderView.xib */,
+				71687D051E5AA4E500CF2218 /* TRZXMarketTabSectionHeaderView.xib */,
 				71687CFE1E5AA3E700CF2218 /* MarketViewCell.h */,
 				71687CFF1E5AA3E700CF2218 /* MarketViewCell.m */,
 				71687D001E5AA3E700CF2218 /* MarketViewCell.xib */,
@@ -290,7 +290,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71687D071E5AA4E500CF2218 /* TRZXCollegeTabSectionHeaderView.xib in Resources */,
+				71687D071E5AA4E500CF2218 /* TRZXMarketTabSectionHeaderView.xib in Resources */,
 				71687D2E1E5AB6B700CF2218 /* 融资项目@3x.png in Resources */,
 				71687D311E5AB6C800CF2218 /* 路演直播@2x.png in Resources */,
 				71687CF31E5A9BE800CF2218 /* LaunchScreen.storyboard in Resources */,
