@@ -16,7 +16,7 @@
 		71687CFD1E5A9C5F00CF2218 /* MarketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71687CFC1E5A9C5F00CF2218 /* MarketViewController.m */; };
 		71687D011E5AA3E700CF2218 /* MarketViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 71687CFF1E5AA3E700CF2218 /* MarketViewCell.m */; };
 		71687D021E5AA3E700CF2218 /* MarketViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71687D001E5AA3E700CF2218 /* MarketViewCell.xib */; };
-		71687D061E5AA4E500CF2218 /* TRZXCollegeTabSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71687D041E5AA4E500CF2218 /* TRZXCollegeTabSectionHeaderView.m */; };
+		71687D061E5AA4E500CF2218 /* TRZXMarketTabSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71687D041E5AA4E500CF2218 /* TRZXMarketTabSectionHeaderView.m */; };
 		71687D071E5AA4E500CF2218 /* TRZXCollegeTabSectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71687D051E5AA4E500CF2218 /* TRZXCollegeTabSectionHeaderView.xib */; };
 		71687D0B1E5AA51400CF2218 /* MarketCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71687D091E5AA51400CF2218 /* MarketCollectionView.m */; };
 		71687D0C1E5AA51400CF2218 /* MarketCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71687D0A1E5AA51400CF2218 /* MarketCollectionView.xib */; };
@@ -62,8 +62,8 @@
 		71687CFE1E5AA3E700CF2218 /* MarketViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketViewCell.h; sourceTree = "<group>"; };
 		71687CFF1E5AA3E700CF2218 /* MarketViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketViewCell.m; sourceTree = "<group>"; };
 		71687D001E5AA3E700CF2218 /* MarketViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MarketViewCell.xib; sourceTree = "<group>"; };
-		71687D031E5AA4E500CF2218 /* TRZXCollegeTabSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXCollegeTabSectionHeaderView.h; sourceTree = "<group>"; };
-		71687D041E5AA4E500CF2218 /* TRZXCollegeTabSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXCollegeTabSectionHeaderView.m; sourceTree = "<group>"; };
+		71687D031E5AA4E500CF2218 /* TRZXMarketTabSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXMarketTabSectionHeaderView.h; sourceTree = "<group>"; };
+		71687D041E5AA4E500CF2218 /* TRZXMarketTabSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXMarketTabSectionHeaderView.m; sourceTree = "<group>"; };
 		71687D051E5AA4E500CF2218 /* TRZXCollegeTabSectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXCollegeTabSectionHeaderView.xib; sourceTree = "<group>"; };
 		71687D081E5AA51400CF2218 /* MarketCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketCollectionView.h; sourceTree = "<group>"; };
 		71687D091E5AA51400CF2218 /* MarketCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketCollectionView.m; sourceTree = "<group>"; };
@@ -170,8 +170,8 @@
 			children = (
 				71687CFB1E5A9C5F00CF2218 /* MarketViewController.h */,
 				71687CFC1E5A9C5F00CF2218 /* MarketViewController.m */,
-				71687D031E5AA4E500CF2218 /* TRZXCollegeTabSectionHeaderView.h */,
-				71687D041E5AA4E500CF2218 /* TRZXCollegeTabSectionHeaderView.m */,
+				71687D031E5AA4E500CF2218 /* TRZXMarketTabSectionHeaderView.h */,
+				71687D041E5AA4E500CF2218 /* TRZXMarketTabSectionHeaderView.m */,
 				71687D051E5AA4E500CF2218 /* TRZXCollegeTabSectionHeaderView.xib */,
 				71687CFE1E5AA3E700CF2218 /* MarketViewCell.h */,
 				71687CFF1E5AA3E700CF2218 /* MarketViewCell.m */,
@@ -372,7 +372,7 @@
 				71687D101E5AA55F00CF2218 /* MarketCollectionViewCell.m in Sources */,
 				71687D211E5AA5EB00CF2218 /* ProjectViewModel.m in Sources */,
 				71687CFD1E5A9C5F00CF2218 /* MarketViewController.m in Sources */,
-				71687D061E5AA4E500CF2218 /* TRZXCollegeTabSectionHeaderView.m in Sources */,
+				71687D061E5AA4E500CF2218 /* TRZXMarketTabSectionHeaderView.m in Sources */,
 				71687D281E5AA64900CF2218 /* MarketNavHeadView.m in Sources */,
 				71687D011E5AA3E700CF2218 /* MarketViewCell.m in Sources */,
 				71687D1E1E5AA5E300CF2218 /* Project.m in Sources */,

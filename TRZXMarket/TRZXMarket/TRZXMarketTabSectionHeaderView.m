@@ -6,9 +6,9 @@
 //  Copyright © 2016年 Tiancaila. All rights reserved.
 //
 
-#import "TRZXCollegeTabSectionHeaderView.h"
+#import "TRZXMarketTabSectionHeaderView.h"
 
-@implementation TRZXCollegeTabSectionHeaderView
+@implementation TRZXMarketTabSectionHeaderView
 
 - (void)awakeFromNib {
     [super awakeFromNib];

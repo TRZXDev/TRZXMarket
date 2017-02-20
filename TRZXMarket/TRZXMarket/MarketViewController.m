@@ -7,7 +7,7 @@
 //
 
 #import "MarketViewController.h"
-#import "TRZXCollegeTabSectionHeaderView.h"
+#import "TRZXMarketTabSectionHeaderView.h"
 #import "MarketViewCell.h"
 #import "TRZXShufflingView.h"
 #import "MarketCollectionView.h"
@@ -137,7 +137,7 @@
 }
 - (nullable UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
     
-    TRZXCollegeTabSectionHeaderView *view=[[[NSBundle mainBundle] loadNibNamed:kCellIdentifier_TRZXCollegeTabSectionHeaderView owner:self options:nil] lastObject];
+    TRZXMarketTabSectionHeaderView *view=[[[NSBundle mainBundle] loadNibNamed:kCellIdentifier_TRZXMarketTabSectionHeaderView owner:self options:nil] lastObject];
     view.titleLabel.text = @"推荐课程";
     return view;
 }

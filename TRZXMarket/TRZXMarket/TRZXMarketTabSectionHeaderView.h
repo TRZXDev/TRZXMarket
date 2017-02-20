@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-static NSString *kCellIdentifier_TRZXCollegeTabSectionHeaderView = @"TRZXCollegeTabSectionHeaderView";
+static NSString *kCellIdentifier_TRZXMarketTabSectionHeaderView = @"TRZXMarketTabSectionHeaderView";
 
-@interface TRZXCollegeTabSectionHeaderView : UITableViewCell
+@interface TRZXMarketTabSectionHeaderView : UITableViewCell
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 
 @end
