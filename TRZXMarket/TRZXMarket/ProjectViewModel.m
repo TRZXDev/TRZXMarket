@@ -63,7 +63,7 @@
             // 在信号量作废时，取消网络请求
             return [RACDisposable disposableWithBlock:^{
 
-                [TRZXNetwork cancelRequestWithURL:nil];
+                [TRZXNetwork cancelRequestWithURL:@""];
             }];
         }];
     }
@@ -105,7 +105,7 @@
             // 在信号量作废时，取消网络请求
             return [RACDisposable disposableWithBlock:^{
 
-                [TRZXNetwork cancelRequestWithURL:nil];
+                [TRZXNetwork cancelRequestWithURL:@""];
             }];
         }];
     }
@@ -142,7 +142,7 @@
             // 在信号量作废时，取消网络请求
             return [RACDisposable disposableWithBlock:^{
 
-                [TRZXNetwork cancelRequestWithURL:nil];
+                [TRZXNetwork cancelRequestWithURL:@""];
             }];
         }];
     }
