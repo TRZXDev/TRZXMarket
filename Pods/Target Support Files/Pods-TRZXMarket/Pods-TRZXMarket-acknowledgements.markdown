@@ -125,6 +125,21 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 MIT
 
 
+## TRZXInvestors
+
+MIT
+
+
+## TRZXInvestorsBusinessCategory
+
+MIT
+
+
+## TRZXKit
+
+MIT
+
+
 ## TRZXProject
 
 MIT

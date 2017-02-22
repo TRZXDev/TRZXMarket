@@ -17,6 +17,8 @@
 #import "ProjectViewModel.h"
 #import "ZHScrollViewLB.h"
 #import <TRZXProjectBusinessCategory/CTMediator+TRZXProjectPage.h>
+#import <TRZXInvestorsBusinessCategory/CTMediator+TRZXInvestors.h>
+
 @interface MarketViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic, strong) UIView *marketHeaderView;
@@ -199,7 +201,10 @@
             break;
         case MarketCollectionViewCellTypeInvestors:{//投资人
 
-
+            UIViewController *projectPageController = [[CTMediator sharedInstance] investorsViewController:@"投资人筛选"];
+            if (projectPageController) {
+                [self.navigationController pushViewController:projectPageController animated:YES];
+            }
 
         }
             break;

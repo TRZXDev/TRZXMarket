@@ -27,11 +27,22 @@ PODS:
     - ReactiveCocoa/Core
   - TRZXDIYRefresh (0.0.1):
     - MJRefresh
-  - TRZXKit (0.0.8)
+  - TRZXInvestors (0.0.1):
+    - Masonry
+    - MJExtension
+    - ReactiveCocoa (~> 2.5)
+    - TRZXDIYRefresh
+    - TRZXKit
+    - TRZXNetwork
+    - TRZXProjectScreening
+    - TRZXProjectScreeningBusinessCategory
+  - TRZXInvestorsBusinessCategory (0.0.2):
+    - CTMediator
+  - TRZXKit (0.0.9)
   - TRZXNetwork (0.0.7):
     - AFNetworking
     - YYCache
-  - TRZXProject (0.0.7):
+  - TRZXProject (0.0.8):
     - Masonry
     - MJExtension
     - ReactiveCocoa (~> 2.5)
@@ -60,6 +71,8 @@ DEPENDENCIES:
   - MJExtension
   - ReactiveCocoa (~> 2.5)
   - TRZXDIYRefresh
+  - TRZXInvestors
+  - TRZXInvestorsBusinessCategory
   - TRZXKit
   - TRZXNetwork
   - TRZXProject
@@ -74,9 +87,11 @@ SPEC CHECKSUMS:
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
   TRZXDIYRefresh: a89e7cf1658ff7d57aad081c596c2a9cf137dcf2
-  TRZXKit: bc6878e8c00bce6384300c7200e8408e20b34fba
+  TRZXInvestors: 18cfa64706427e33d1a99be7c6ba4df42e5abb9b
+  TRZXInvestorsBusinessCategory: cf8ca239f9e868fc5768ec957669e6faf89d6962
+  TRZXKit: af6dc2bcca593585d079d59ca10c8912ddc81b56
   TRZXNetwork: 971adad8c503f4e1fa21a2a3cfa8b73a7e4f3a13
-  TRZXProject: b6bf35f1ae5ef094569aa166b60ebdc434b0d354
+  TRZXProject: 50c897c5a706761f1ce62ac1f17522e0b21d24d2
   TRZXProjectBusinessCategory: 36ab9f558affa447c0121dbdb3401bfdc1b0ddba
   TRZXProjectScreening: 2c40b12e1c4cebcfadb448441fbf9260b50fb118
   TRZXProjectScreeningBusinessCategory: 3f7c61fe9d8ae6d6b071f013c119b7c8f96a8d43
@@ -84,6 +99,6 @@ SPEC CHECKSUMS:
   WMPageController: 181bcc9b1fb7c9c3466bff66012552953a547d28
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: 7d4aef7c8dc61950170f0aca2c5239c6506d5456
+PODFILE CHECKSUM: ab8ae22297c05f0c04386f94dbdefb4d2ae114c8
 
 COCOAPODS: 1.2.0
