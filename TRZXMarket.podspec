@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TRZXMarket"
-  s.version      = "0.0.7"
+  s.version      = "0.0.8"
   s.summary      = "A TRZXMarket."
 
   # This description is used to generate tags and improve search results.
@@ -135,12 +135,16 @@ Pod::Spec.new do |s|
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.dependency "TRZXNetwork"
+  s.dependency "Masonry"
   s.dependency "ReactiveCocoa", "~> 2.5"
   s.dependency "MJExtension"
 
   s.dependency "TRZXShufflingView"
+  s.dependency "TRZXNetwork"
   s.dependency "TRZXKit"
-  s.dependency "MJRefresh"
+  s.dependency "TRZXDIYRefresh"
+  s.dependency "TRZXProject"
+  s.dependency "TRZXProjectBusinessCategory"
+
 
 end

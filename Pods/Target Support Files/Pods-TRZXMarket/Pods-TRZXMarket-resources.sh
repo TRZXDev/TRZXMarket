@@ -141,6 +141,9 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "TRZXDIYRefresh/TRZXDIYRefresh/TRZXDIYRefresh/Resources/dropdown_loading_01@2x.png"
   install_resource "TRZXDIYRefresh/TRZXDIYRefresh/TRZXDIYRefresh/Resources/dropdown_loading_02@2x.png"
   install_resource "TRZXDIYRefresh/TRZXDIYRefresh/TRZXDIYRefresh/Resources/dropdown_loading_03@2x.png"
+  install_resource "TRZXProject/TRZXProject/TRZXProject/Resources/筛选@2x.png"
+  install_resource "TRZXProject/TRZXProject/TRZXProject/Resources/筛选@3x.png"
+  install_resource "TRZXProject/TRZXProject/TRZXProject/TRZXProjectCell.xib"
   install_resource "TRZXShufflingView/TRZXShufflingView/TRZXShufflingView/consulting_logo@2x.png"
   install_resource "TRZXShufflingView/TRZXShufflingView/TRZXShufflingView/TRZXShufflingCell.xib"
 fi
@@ -209,6 +212,9 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "TRZXDIYRefresh/TRZXDIYRefresh/TRZXDIYRefresh/Resources/dropdown_loading_01@2x.png"
   install_resource "TRZXDIYRefresh/TRZXDIYRefresh/TRZXDIYRefresh/Resources/dropdown_loading_02@2x.png"
   install_resource "TRZXDIYRefresh/TRZXDIYRefresh/TRZXDIYRefresh/Resources/dropdown_loading_03@2x.png"
+  install_resource "TRZXProject/TRZXProject/TRZXProject/Resources/筛选@2x.png"
+  install_resource "TRZXProject/TRZXProject/TRZXProject/Resources/筛选@3x.png"
+  install_resource "TRZXProject/TRZXProject/TRZXProject/TRZXProjectCell.xib"
   install_resource "TRZXShufflingView/TRZXShufflingView/TRZXShufflingView/consulting_logo@2x.png"
   install_resource "TRZXShufflingView/TRZXShufflingView/TRZXShufflingView/TRZXShufflingCell.xib"
 fi

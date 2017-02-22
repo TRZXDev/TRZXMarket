@@ -16,6 +16,7 @@
 #import "TRZXKit.h"
 #import "ProjectViewModel.h"
 #import "ZHScrollViewLB.h"
+#import <TRZXProjectBusinessCategory/CTMediator+TRZXProjectPage.h>
 @interface MarketViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic, strong) UIView *marketHeaderView;
@@ -172,6 +173,51 @@
 
 
 
+// 四版头条点击事件
+- (void)headlineContentTap:(UITapGestureRecognizer *)tap
+{
+
+}
+
+
+-(void)marketTradingCenterViewWithBlock:(MarketCollectionViewCellType)type{
+
+
+    switch (type) {
+        case MarketCollectionViewCellTypeFinancingProject:{//融资项目
+
+            UIViewController *projectPageController = [[CTMediator sharedInstance] projectPageViewController:@"融资项目"];
+            if (projectPageController) {
+                [self.navigationController pushViewController:projectPageController animated:YES];
+            }
+        }
+            break;
+        case MarketCollectionViewCellTypeRoadshowLive:{//路演直播
+
+
+        }
+            break;
+        case MarketCollectionViewCellTypeInvestors:{//投资人
+
+
+
+        }
+            break;
+        case MarketCollectionViewCellTypeNearShareholders:{//附近股东
+
+
+        }
+            break;
+        default:
+            break;
+    }
+
+
+
+
+}
+
+
 
 
 -(MarketNavHeadView *)marketNavHeadView{
@@ -232,7 +278,7 @@
 
         // 底部入口View
         _marketCollectionView = [MarketCollectionView marketCollectionViewCellWithBlock:^(MarketCollectionViewCellType type) {
-
+            [self marketTradingCenterViewWithBlock:type];
 
         }];
 
@@ -271,11 +317,7 @@
 
 
 }
-// 四版头条点击事件
-- (void)headlineContentTap:(UITapGestureRecognizer *)tap
-{
 
-}
 
 
 - (ProjectViewModel *)projectViewModel {

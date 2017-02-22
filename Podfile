@@ -14,6 +14,10 @@ target 'TRZXMarket' do
     pod 'TRZXDIYRefresh'
     pod 'Masonry'
 
+
+    pod 'TRZXProject' #项目列表模块
+    pod 'TRZXProjectBusinessCategory' #项目列表扩展组件
+
   # Pods for TRZXMarket
 
 end
