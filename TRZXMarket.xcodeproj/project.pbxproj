@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		715998941E6008FA006D94F4 /* TRZXHeadlinesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715998931E6008FA006D94F4 /* TRZXHeadlinesViewController.m */; };
+		715998971E600A42006D94F4 /* TRZXHeadlinesViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 715998961E600A42006D94F4 /* TRZXHeadlinesViewModel.m */; };
+		7159989A1E600A51006D94F4 /* TRZXHeadlines.m in Sources */ = {isa = PBXBuildFile; fileRef = 715998991E600A51006D94F4 /* TRZXHeadlines.m */; };
+		7159989E1E601490006D94F4 /* TRZXHeadlinesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7159989C1E601490006D94F4 /* TRZXHeadlinesCell.m */; };
+		7159989F1E601490006D94F4 /* TRZXHeadlinesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7159989D1E601490006D94F4 /* TRZXHeadlinesCell.xib */; };
 		71687CE51E5A9BE800CF2218 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71687CE41E5A9BE800CF2218 /* main.m */; };
 		71687CE81E5A9BE800CF2218 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71687CE71E5A9BE800CF2218 /* AppDelegate.m */; };
 		71687CEB1E5A9BE800CF2218 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71687CEA1E5A9BE800CF2218 /* ViewController.m */; };
@@ -61,6 +66,15 @@
 
 /* Begin PBXFileReference section */
 		156EDCAE8B08AB4625D8E2BD /* libPods-TRZXMarket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TRZXMarket.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		715998921E6008FA006D94F4 /* TRZXHeadlinesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXHeadlinesViewController.h; sourceTree = "<group>"; };
+		715998931E6008FA006D94F4 /* TRZXHeadlinesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXHeadlinesViewController.m; sourceTree = "<group>"; };
+		715998951E600A42006D94F4 /* TRZXHeadlinesViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXHeadlinesViewModel.h; sourceTree = "<group>"; };
+		715998961E600A42006D94F4 /* TRZXHeadlinesViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXHeadlinesViewModel.m; sourceTree = "<group>"; };
+		715998981E600A51006D94F4 /* TRZXHeadlines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXHeadlines.h; sourceTree = "<group>"; };
+		715998991E600A51006D94F4 /* TRZXHeadlines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXHeadlines.m; sourceTree = "<group>"; };
+		7159989B1E60148F006D94F4 /* TRZXHeadlinesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXHeadlinesCell.h; sourceTree = "<group>"; };
+		7159989C1E601490006D94F4 /* TRZXHeadlinesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXHeadlinesCell.m; sourceTree = "<group>"; };
+		7159989D1E601490006D94F4 /* TRZXHeadlinesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TRZXHeadlinesCell.xib; sourceTree = "<group>"; };
 		71687CE01E5A9BE800CF2218 /* TRZXMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRZXMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71687CE41E5A9BE800CF2218 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		71687CE61E5A9BE800CF2218 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -225,6 +239,15 @@
 				71687D201E5AA5EB00CF2218 /* ProjectViewModel.m */,
 				71687D1C1E5AA5E300CF2218 /* Project.h */,
 				71687D1D1E5AA5E300CF2218 /* Project.m */,
+				715998921E6008FA006D94F4 /* TRZXHeadlinesViewController.h */,
+				715998931E6008FA006D94F4 /* TRZXHeadlinesViewController.m */,
+				7159989B1E60148F006D94F4 /* TRZXHeadlinesCell.h */,
+				7159989C1E601490006D94F4 /* TRZXHeadlinesCell.m */,
+				7159989D1E601490006D94F4 /* TRZXHeadlinesCell.xib */,
+				715998951E600A42006D94F4 /* TRZXHeadlinesViewModel.h */,
+				715998961E600A42006D94F4 /* TRZXHeadlinesViewModel.m */,
+				715998981E600A51006D94F4 /* TRZXHeadlines.h */,
+				715998991E600A51006D94F4 /* TRZXHeadlines.m */,
 				71687D2A1E5AB66D00CF2218 /* Resources */,
 			);
 			path = TRZXMarket;
@@ -352,6 +375,7 @@
 				71687D501E5B007F00CF2218 /* kipo-2@2x.png in Resources */,
 				71687D321E5AB6C800CF2218 /* 路演直播@3x.png in Resources */,
 				71687D2D1E5AB6B700CF2218 /* 融资项目@2x.png in Resources */,
+				7159989F1E601490006D94F4 /* TRZXHeadlinesCell.xib in Resources */,
 				71687D611E5B00F900CF2218 /* 发布@2x.png in Resources */,
 				71687D451E5AFFA200CF2218 /* 更多@2x.png in Resources */,
 				71687D021E5AA3E700CF2218 /* MarketViewCell.xib in Resources */,
@@ -429,14 +453,18 @@
 				71687D211E5AA5EB00CF2218 /* ProjectViewModel.m in Sources */,
 				71687CFD1E5A9C5F00CF2218 /* MarketViewController.m in Sources */,
 				71687D061E5AA4E500CF2218 /* TRZXMarketTabSectionHeaderView.m in Sources */,
+				715998971E600A42006D94F4 /* TRZXHeadlinesViewModel.m in Sources */,
 				71687D281E5AA64900CF2218 /* MarketNavHeadView.m in Sources */,
+				7159989E1E601490006D94F4 /* TRZXHeadlinesCell.m in Sources */,
 				71687D011E5AA3E700CF2218 /* MarketViewCell.m in Sources */,
 				71687D1E1E5AA5E300CF2218 /* Project.m in Sources */,
+				7159989A1E600A51006D94F4 /* TRZXHeadlines.m in Sources */,
 				71687D181E5AA5CB00CF2218 /* MarketTradingCenterView.m in Sources */,
 				71687D1A1E5AA5CB00CF2218 /* MarketTradingCenterViewCell.m in Sources */,
 				71687D431E5ADF2800CF2218 /* ZHScrollViewLB.m in Sources */,
 				71687CEB1E5A9BE800CF2218 /* ViewController.m in Sources */,
 				71687CE81E5A9BE800CF2218 /* AppDelegate.m in Sources */,
+				715998941E6008FA006D94F4 /* TRZXHeadlinesViewController.m in Sources */,
 				71687CE51E5A9BE800CF2218 /* main.m in Sources */,
 				71687D0B1E5AA51400CF2218 /* MarketCollectionView.m in Sources */,
 			);

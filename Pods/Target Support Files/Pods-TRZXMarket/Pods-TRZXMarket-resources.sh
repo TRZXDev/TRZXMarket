@@ -77,6 +77,7 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "AXWebViewController/AXWebViewController/AXWebViewController/AXWebViewController.bundle"
   install_resource "MJRefresh/MJRefresh/MJRefresh.bundle"
   install_resource "TRZXDIYRefresh/TRZXDIYRefresh/TRZXDIYRefresh/Resources/dropdown_anim__00010@2x.png"
   install_resource "TRZXDIYRefresh/TRZXDIYRefresh/TRZXDIYRefresh/Resources/dropdown_anim__00011@2x.png"
@@ -146,10 +147,21 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "TRZXProject/TRZXProject/TRZXProject/Resources/筛选@2x.png"
   install_resource "TRZXProject/TRZXProject/TRZXProject/Resources/筛选@3x.png"
   install_resource "TRZXProject/TRZXProject/TRZXProject/TRZXProjectCell.xib"
-  install_resource "TRZXShufflingView/TRZXShufflingView/TRZXShufflingView/consulting_logo@2x.png"
   install_resource "TRZXShufflingView/TRZXShufflingView/TRZXShufflingView/TRZXShufflingCell.xib"
+  install_resource "TradingCenter/TradingCenter/TradingCenter/Resources/C直播@2x.png"
+  install_resource "TradingCenter/TradingCenter/TradingCenter/Resources/C直播@3x.png"
+  install_resource "TradingCenter/TradingCenter/TradingCenter/Resources/tradingCenter更多@2x.png"
+  install_resource "TradingCenter/TradingCenter/TradingCenter/Resources/回看.png"
+  install_resource "TradingCenter/TradingCenter/TradingCenter/Resources/直播.png"
+  install_resource "TradingCenter/TradingCenter/TradingCenter/Resources/看过@2x.png"
+  install_resource "TradingCenter/TradingCenter/TradingCenter/Resources/看过@3x.png"
+  install_resource "TradingCenter/TradingCenter/TradingCenter/TradingCenterActivityCell.xib"
+  install_resource "TradingCenter/TradingCenter/TradingCenter/TradingCenterCell.xib"
+  install_resource "TradingCenter/TradingCenter/TradingCenter/TradingCenterRoadshowLiveCell.xib"
+  install_resource "TradingCenter/TradingCenter/TradingCenter/TradingCenterTrailerCell.xib"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "AXWebViewController/AXWebViewController/AXWebViewController/AXWebViewController.bundle"
   install_resource "MJRefresh/MJRefresh/MJRefresh.bundle"
   install_resource "TRZXDIYRefresh/TRZXDIYRefresh/TRZXDIYRefresh/Resources/dropdown_anim__00010@2x.png"
   install_resource "TRZXDIYRefresh/TRZXDIYRefresh/TRZXDIYRefresh/Resources/dropdown_anim__00011@2x.png"
@@ -219,8 +231,18 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "TRZXProject/TRZXProject/TRZXProject/Resources/筛选@2x.png"
   install_resource "TRZXProject/TRZXProject/TRZXProject/Resources/筛选@3x.png"
   install_resource "TRZXProject/TRZXProject/TRZXProject/TRZXProjectCell.xib"
-  install_resource "TRZXShufflingView/TRZXShufflingView/TRZXShufflingView/consulting_logo@2x.png"
   install_resource "TRZXShufflingView/TRZXShufflingView/TRZXShufflingView/TRZXShufflingCell.xib"
+  install_resource "TradingCenter/TradingCenter/TradingCenter/Resources/C直播@2x.png"
+  install_resource "TradingCenter/TradingCenter/TradingCenter/Resources/C直播@3x.png"
+  install_resource "TradingCenter/TradingCenter/TradingCenter/Resources/tradingCenter更多@2x.png"
+  install_resource "TradingCenter/TradingCenter/TradingCenter/Resources/回看.png"
+  install_resource "TradingCenter/TradingCenter/TradingCenter/Resources/直播.png"
+  install_resource "TradingCenter/TradingCenter/TradingCenter/Resources/看过@2x.png"
+  install_resource "TradingCenter/TradingCenter/TradingCenter/Resources/看过@3x.png"
+  install_resource "TradingCenter/TradingCenter/TradingCenter/TradingCenterActivityCell.xib"
+  install_resource "TradingCenter/TradingCenter/TradingCenter/TradingCenterCell.xib"
+  install_resource "TradingCenter/TradingCenter/TradingCenter/TradingCenterRoadshowLiveCell.xib"
+  install_resource "TradingCenter/TradingCenter/TradingCenter/TradingCenterTrailerCell.xib"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

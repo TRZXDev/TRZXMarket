@@ -18,6 +18,9 @@
 #import "ZHScrollViewLB.h"
 #import <TRZXProjectBusinessCategory/CTMediator+TRZXProjectPage.h>
 #import <TRZXInvestorsBusinessCategory/CTMediator+TRZXInvestors.h>
+#import <TradingCenterBusinessCategory/CTMediator+TRZXTradingCenter.h>
+#import "WMHomeViewController.h"
+#import "TRZXHeadlinesViewController.h"
 
 @interface MarketViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -175,11 +178,6 @@
 
 
 
-// 四版头条点击事件
-- (void)headlineContentTap:(UITapGestureRecognizer *)tap
-{
-
-}
 
 
 -(void)marketTradingCenterViewWithBlock:(MarketCollectionViewCellType)type{
@@ -298,12 +296,29 @@
         // 交易中心
         _marketTradingCenterView = [MarketTradingCenterView marketTradingCenterViewWithBlock:^(NSDictionary *recomend) {
 
+            WMHomeViewController *vc = [[WMHomeViewController alloc]initTradingCenterTitle:recomend[@"name"] tradingCenterId:recomend[@"mid"]];
+            [self.navigationController pushViewController:vc animated:true];
+
+
         }];
         _marketTradingCenterView.frame = CGRectMake(0, _marketCollectionView.bottom+10, self.view.width, 186);
+
+        [[_marketTradingCenterView.moreBtn rac_signalForControlEvents:UIControlEventTouchUpInside]
+         subscribeNext:^(id x) {
+             UIViewController *vc = [[CTMediator sharedInstance] tradingCenterViewController:@"交易中心"];
+             if (vc) {
+                 [self.navigationController pushViewController:vc animated:YES];
+             }
+
+         }];
 
     }
     return _marketTradingCenterView;
 }
+
+
+
+
 
 
 -(void)setZHScrollViewLB:(NSArray*)array{
@@ -323,6 +338,13 @@
 
 }
 
+// 四版头条点击事件
+- (void)headlineContentTap:(UITapGestureRecognizer *)tap
+{
+    TRZXHeadlinesViewController *vc = [[TRZXHeadlinesViewController alloc]init];
+    vc.vcTitle = @"四版头条";
+    [self.navigationController pushViewController:vc animated:true];
+}
 
 
 - (ProjectViewModel *)projectViewModel {

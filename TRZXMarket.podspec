@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TRZXMarket"
-  s.version      = "0.0.11"
+  s.version      = "0.0.12"
   s.summary      = "A TRZXMarket."
 
   # This description is used to generate tags and improve search results.
@@ -143,8 +143,10 @@ Pod::Spec.new do |s|
   s.dependency "TRZXNetwork"
   s.dependency "TRZXKit"
   s.dependency "TRZXDIYRefresh"
-  s.dependency "TRZXProject"
-  s.dependency "TRZXProjectBusinessCategory"
-
-
+  s.dependency "TRZXProject" #项目列表模块
+  s.dependency "TRZXProjectBusinessCategory"  #项目列表扩展组件
+  s.dependency "TRZXInvestors" #投资人列表模块
+  s.dependency "TRZXInvestorsBusinessCategory" #项投资人列表扩展组件
+  s.dependency "TradingCenter" #交易中心列表模块
+  s.dependency "TradingCenterBusinessCategory"  #交易中心列表扩展组件
 end

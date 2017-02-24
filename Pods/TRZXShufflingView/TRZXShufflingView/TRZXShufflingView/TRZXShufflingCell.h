@@ -10,10 +10,8 @@
 
 @interface TRZXShufflingCell : UICollectionViewCell
 @property (weak, nonatomic) IBOutlet UIImageView *shufflingImageView;
-@property (weak, nonatomic) IBOutlet UIImageView *zxImageView;
 @property (assign, nonatomic) NSInteger index;
 @property (strong, nonatomic) NSString *image;
-@property (strong, nonatomic) NSString *type;
 
 
 @end

@@ -1,0 +1,17 @@
+//
+//  CTMediator+TRZXConfirmFinancing.m
+//  TRZXConfirmFinancingBusinessCategory
+//
+//  Created by N年後 on 2017/1/21.
+//  Copyright © 2017年 TRZX. All rights reserved.
+//
+
+#import "CTMediator+TRZXTradingCenter.h"
+
+@implementation CTMediator (TRZXTradingCenter)
+- (UIViewController *)tradingCenterViewController:(NSString *)vcTitle{
+    NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
+    params[@"vcTitle"] = vcTitle;
+    return [self performTarget:@"TRZXTradingCenter" action:@"TradingCenterViewController" params:params shouldCacheTarget:NO];
+}
+@end

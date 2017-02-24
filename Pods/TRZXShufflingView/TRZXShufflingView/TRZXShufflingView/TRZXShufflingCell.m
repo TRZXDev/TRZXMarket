@@ -21,9 +21,4 @@
     [self.shufflingImageView setImageWithURL:[NSURL URLWithString:image] placeholderImage:[UIImage imageNamed:@"展位图"]];
 }
 
--(void)setType:(NSString *)type{
-    _type = type;
-    self.zxImageView.hidden = [type isEqualToString:@"expert"]?NO:YES;
-}
-
 @end

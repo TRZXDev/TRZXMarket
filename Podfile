@@ -19,6 +19,8 @@ target 'TRZXMarket' do
     pod 'TRZXProjectBusinessCategory' #项目列表扩展组件
     pod 'TRZXInvestors' #投资人列表模块
     pod 'TRZXInvestorsBusinessCategory' #项投资人列表扩展组件
+    pod 'TradingCenter' #交易中心列表模块
+    pod 'TradingCenterBusinessCategory' #交易中心列表扩展组件
 
   # Pods for TRZXMarket
 
