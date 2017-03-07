@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "TRZXMap.h"
+#import "TRZXNetwork.h"
+
+#define kAMapAppKey @"f1060ef1f62bef18731182fa5983ddf8"
 
 @interface AppDelegate ()
 
@@ -17,6 +21,30 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+
+    /** 高德地图平台 */
+    [AMapServices sharedServices].apiKey = kAMapAppKey;
+
+
+    NSMutableDictionary *headers = [[NSMutableDictionary alloc]init];
+    [headers setValue:@"7a06aecbda8db7cb30665e919cdf8433" forKey:@"token"];
+    [headers setValue:@"d8c86c8f343e4de6a9faab7e148bed63" forKey:@"userId"];
+
+
+    [TRZXNetwork configWithBaseURL:@"http://test.mmwipo.com:8088/"];
+    [TRZXNetwork configWithNewBaseURL:@"http://123.56.228.107:8081/"];
+
+    // 配置请求头
+    [TRZXNetwork configHttpHeaders:headers];
+
+    [[TRZXMapManage sharedManager] startLocation:^(AMapLocationReGeocode *regeocode) {
+
+        NSLog(@">>>>>>>>>>>>>>>>%@",regeocode.city);
+        
+        
+    }];
+
+
     return YES;
 }
 

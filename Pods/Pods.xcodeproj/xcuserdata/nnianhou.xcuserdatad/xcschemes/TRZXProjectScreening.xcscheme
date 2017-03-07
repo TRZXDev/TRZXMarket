@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '78E31C9C5621592A29AE58385995547C'
+               BlueprintIdentifier = 'D7EB1CA84FDFE8AB105270E65D736A21'
                BlueprintName = 'TRZXProjectScreening'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libTRZXProjectScreening.a'>

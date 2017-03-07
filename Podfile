@@ -22,6 +22,9 @@ target 'TRZXMarket' do
     pod 'TradingCenter' #交易中心列表模块
     pod 'TradingCenterBusinessCategory' #交易中心列表扩展组件
 
+    pod 'TRZXMap' #投融在线地图
+    pod 'TRZXMapBusinessCategory' #投融在线地图扩展组件
+
   # Pods for TRZXMarket
 
 end

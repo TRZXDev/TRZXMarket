@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '9673B400498789A53C5A71856C31C7DD'
+               BlueprintIdentifier = 'FEA6FC910266A6A5881E5D5F7D72B91A'
                BlueprintName = 'TRZXProject'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libTRZXProject.a'>

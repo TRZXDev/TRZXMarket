@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '0956BC73D1EDA628F2A4D136BE6C4517'
+               BlueprintIdentifier = '7ADB4A6C71C59B1CB2BBB99D58AA6ADC'
                BlueprintName = 'TRZXWebViewCategory'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libTRZXWebViewCategory.a'>

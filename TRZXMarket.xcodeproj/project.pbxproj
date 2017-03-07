@@ -18,7 +18,7 @@
 		71687CEE1E5A9BE800CF2218 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71687CEC1E5A9BE800CF2218 /* Main.storyboard */; };
 		71687CF01E5A9BE800CF2218 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71687CEF1E5A9BE800CF2218 /* Assets.xcassets */; };
 		71687CF31E5A9BE800CF2218 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71687CF11E5A9BE800CF2218 /* LaunchScreen.storyboard */; };
-		71687CFD1E5A9C5F00CF2218 /* MarketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71687CFC1E5A9C5F00CF2218 /* MarketViewController.m */; };
+		71687CFD1E5A9C5F00CF2218 /* TRZXMarketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71687CFC1E5A9C5F00CF2218 /* TRZXMarketViewController.m */; };
 		71687D011E5AA3E700CF2218 /* MarketViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 71687CFF1E5AA3E700CF2218 /* MarketViewCell.m */; };
 		71687D021E5AA3E700CF2218 /* MarketViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71687D001E5AA3E700CF2218 /* MarketViewCell.xib */; };
 		71687D061E5AA4E500CF2218 /* TRZXMarketTabSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71687D041E5AA4E500CF2218 /* TRZXMarketTabSectionHeaderView.m */; };
@@ -85,8 +85,8 @@
 		71687CEF1E5A9BE800CF2218 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71687CF21E5A9BE800CF2218 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71687CF41E5A9BE800CF2218 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		71687CFB1E5A9C5F00CF2218 /* MarketViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketViewController.h; sourceTree = "<group>"; };
-		71687CFC1E5A9C5F00CF2218 /* MarketViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketViewController.m; sourceTree = "<group>"; };
+		71687CFB1E5A9C5F00CF2218 /* TRZXMarketViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXMarketViewController.h; sourceTree = "<group>"; };
+		71687CFC1E5A9C5F00CF2218 /* TRZXMarketViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXMarketViewController.m; sourceTree = "<group>"; };
 		71687CFE1E5AA3E700CF2218 /* MarketViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketViewCell.h; sourceTree = "<group>"; };
 		71687CFF1E5AA3E700CF2218 /* MarketViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketViewCell.m; sourceTree = "<group>"; };
 		71687D001E5AA3E700CF2218 /* MarketViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MarketViewCell.xib; sourceTree = "<group>"; };
@@ -210,8 +210,8 @@
 		71687CFA1E5A9C0400CF2218 /* TRZXMarket */ = {
 			isa = PBXGroup;
 			children = (
-				71687CFB1E5A9C5F00CF2218 /* MarketViewController.h */,
-				71687CFC1E5A9C5F00CF2218 /* MarketViewController.m */,
+				71687CFB1E5A9C5F00CF2218 /* TRZXMarketViewController.h */,
+				71687CFC1E5A9C5F00CF2218 /* TRZXMarketViewController.m */,
 				71687D031E5AA4E500CF2218 /* TRZXMarketTabSectionHeaderView.h */,
 				71687D041E5AA4E500CF2218 /* TRZXMarketTabSectionHeaderView.m */,
 				71687D051E5AA4E500CF2218 /* TRZXMarketTabSectionHeaderView.xib */,
@@ -451,7 +451,7 @@
 			files = (
 				71687D101E5AA55F00CF2218 /* MarketCollectionViewCell.m in Sources */,
 				71687D211E5AA5EB00CF2218 /* ProjectViewModel.m in Sources */,
-				71687CFD1E5A9C5F00CF2218 /* MarketViewController.m in Sources */,
+				71687CFD1E5A9C5F00CF2218 /* TRZXMarketViewController.m in Sources */,
 				71687D061E5AA4E500CF2218 /* TRZXMarketTabSectionHeaderView.m in Sources */,
 				715998971E600A42006D94F4 /* TRZXHeadlinesViewModel.m in Sources */,
 				71687D281E5AA64900CF2218 /* MarketNavHeadView.m in Sources */,
@@ -591,7 +591,7 @@
 				INFOPLIST_FILE = TRZXMarket/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mmwipo.com.TRZXMarket;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TRZXMarket;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -605,7 +605,7 @@
 				INFOPLIST_FILE = TRZXMarket/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mmwipo.com.TRZXMarket;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TRZXMarket;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

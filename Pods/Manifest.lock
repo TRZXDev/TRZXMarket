@@ -14,9 +14,16 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - AMap3DMap (4.6.1):
+    - AMapFoundation (~> 1.3)
+  - AMapFoundation (1.3.3)
+  - AMapLocation (2.3.0):
+    - AMapFoundation (~> 1.3)
+  - AMapSearch (4.5.0):
+    - AMapFoundation (~> 1.2)
   - Aspects (1.4.1)
   - AXNavigationBackItemInjection (0.0.1)
-  - AXWebViewController (0.4.1):
+  - AXWebViewController (0.4.2):
     - Aspects
     - AXNavigationBackItemInjection
     - NJKWebViewProgress
@@ -63,10 +70,25 @@ PODS:
   - TRZXInvestorsBusinessCategory (0.0.2):
     - CTMediator
   - TRZXKit (0.0.9)
+  - TRZXMap (0.0.1):
+    - AMap3DMap
+    - AMapLocation
+    - AMapSearch
+    - Masonry
+    - MJExtension
+    - ReactiveCocoa (~> 2.5)
+    - TRZXDIYRefresh
+    - TRZXKit
+    - TRZXNetwork
+    - TRZXProjectScreening
+    - TRZXProjectScreeningBusinessCategory
+    - WMPageController
+  - TRZXMapBusinessCategory (0.0.1):
+    - CTMediator
   - TRZXNetwork (0.0.7):
     - AFNetworking
     - YYCache
-  - TRZXProject (0.0.8):
+  - TRZXProject (0.0.9):
     - Masonry
     - MJExtension
     - ReactiveCocoa (~> 2.5)
@@ -104,6 +126,8 @@ DEPENDENCIES:
   - TRZXInvestors
   - TRZXInvestorsBusinessCategory
   - TRZXKit
+  - TRZXMap
+  - TRZXMapBusinessCategory
   - TRZXNetwork
   - TRZXProject
   - TRZXProjectBusinessCategory
@@ -111,9 +135,13 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  AMap3DMap: eb6656fb441ed7eb310b3c121032e947d4d649e5
+  AMapFoundation: c086329a1f19afec00e4c197863665235eb43dc2
+  AMapLocation: 5fb51fe0e35e68a899199651942e6234d6257d91
+  AMapSearch: 7a6ebc20a42e34a021b042b047f198082fc2fc30
   Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
   AXNavigationBackItemInjection: 0ab0742fafd9ec37e44b8767c96cbbc77ec13575
-  AXWebViewController: 9774b08caf6917319d2246d0817032500e6a8fd5
+  AXWebViewController: ede0e60abde7ac6a3f93078bc09dcdbbc13f2676
   CTMediator: c9a1203561e2232cb9a72822659159a02ae3cf20
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
@@ -126,8 +154,10 @@ SPEC CHECKSUMS:
   TRZXInvestors: 18cfa64706427e33d1a99be7c6ba4df42e5abb9b
   TRZXInvestorsBusinessCategory: cf8ca239f9e868fc5768ec957669e6faf89d6962
   TRZXKit: af6dc2bcca593585d079d59ca10c8912ddc81b56
-  TRZXNetwork: 971adad8c503f4e1fa21a2a3cfa8b73a7e4f3a13
-  TRZXProject: 50c897c5a706761f1ce62ac1f17522e0b21d24d2
+  TRZXMap: c4b90a3ed47947c9e85100d61b5d7e755cec8140
+  TRZXMapBusinessCategory: b589e1d664ddf3d01d5d61ccd2ae1d57021dc51e
+  TRZXNetwork: d6ce75a420218ed4b6b95f10220442f175947125
+  TRZXProject: aca740ad57cfe7e673a76792a0bea2634134e1c2
   TRZXProjectBusinessCategory: 36ab9f558affa447c0121dbdb3401bfdc1b0ddba
   TRZXProjectScreening: 2c40b12e1c4cebcfadb448441fbf9260b50fb118
   TRZXProjectScreeningBusinessCategory: 3f7c61fe9d8ae6d6b071f013c119b7c8f96a8d43
@@ -137,6 +167,6 @@ SPEC CHECKSUMS:
   WMPageController: 181bcc9b1fb7c9c3466bff66012552953a547d28
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: 0489c3a2fd257e8eca4b04a82697912ff40285be
+PODFILE CHECKSUM: ac6606e95cbc1b88ec9109b60e79c7f5d9158489
 
 COCOAPODS: 1.2.0
