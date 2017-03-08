@@ -22,6 +22,5 @@
 @property (readwrite, nonatomic, strong) NSMutableArray *list; // 市场投资人列表
 
 
--(NSDictionary *)toAllParams;
 - (void)configWithObj:(TRZXInvestorsViewModel *)model;
 @end

@@ -43,7 +43,7 @@ PODS:
   - ReactiveCocoa/no-arc (2.5)
   - ReactiveCocoa/UI (2.5):
     - ReactiveCocoa/Core
-  - TradingCenter (0.0.2):
+  - TradingCenter (0.0.3):
     - Masonry
     - MJExtension
     - ReactiveCocoa (~> 2.5)
@@ -58,7 +58,7 @@ PODS:
     - CTMediator
   - TRZXDIYRefresh (0.0.1):
     - MJRefresh
-  - TRZXInvestors (0.0.1):
+  - TRZXInvestors (0.0.2):
     - Masonry
     - MJExtension
     - ReactiveCocoa (~> 2.5)
@@ -148,10 +148,10 @@ SPEC CHECKSUMS:
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
   ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
-  TradingCenter: dcce91537c084e5dd867d89fa3f104def19e4876
+  TradingCenter: 01912124589549bd5ac42f6f16aee8e9ee73b60a
   TradingCenterBusinessCategory: bb16df5eb7bb1b46f6de73729e7a8b8b9dd7c56b
   TRZXDIYRefresh: a89e7cf1658ff7d57aad081c596c2a9cf137dcf2
-  TRZXInvestors: 18cfa64706427e33d1a99be7c6ba4df42e5abb9b
+  TRZXInvestors: 1fa984a967b4a95a99a12c76a95c1d2bd4e29fe2
   TRZXInvestorsBusinessCategory: cf8ca239f9e868fc5768ec957669e6faf89d6962
   TRZXKit: af6dc2bcca593585d079d59ca10c8912ddc81b56
   TRZXMap: c4b90a3ed47947c9e85100d61b5d7e755cec8140

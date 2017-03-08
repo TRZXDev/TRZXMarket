@@ -20,7 +20,6 @@
 #import <TRZXInvestorsBusinessCategory/CTMediator+TRZXInvestors.h>
 #import <TradingCenterBusinessCategory/CTMediator+TRZXTradingCenter.h>
 #import <TRZXMapBusinessCategory/CTMediator+TRZXMapHome.h>
-
 #import "WMHomeViewController.h"
 #import "TRZXHeadlinesViewController.h"
 
