@@ -25,6 +25,11 @@ target 'TRZXMarket' do
     pod 'TRZXMap' #投融在线地图
     pod 'TRZXMapBusinessCategory' #投融在线地图扩展组件
 
+    pod 'TRZXWebViewCategory' #Web详情业务Category组件
+    pod 'TRZXWebView' #Web详情业务模块
+
+
+
   # Pods for TRZXMarket
 
 end

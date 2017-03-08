@@ -70,7 +70,7 @@ PODS:
   - TRZXInvestorsBusinessCategory (0.0.2):
     - CTMediator
   - TRZXKit (0.0.9)
-  - TRZXMap (0.0.1):
+  - TRZXMap (0.0.2):
     - AMap3DMap
     - AMapLocation
     - AMapSearch
@@ -132,6 +132,8 @@ DEPENDENCIES:
   - TRZXProject
   - TRZXProjectBusinessCategory
   - TRZXShufflingView
+  - TRZXWebView
+  - TRZXWebViewCategory
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
@@ -154,7 +156,7 @@ SPEC CHECKSUMS:
   TRZXInvestors: 1fa984a967b4a95a99a12c76a95c1d2bd4e29fe2
   TRZXInvestorsBusinessCategory: cf8ca239f9e868fc5768ec957669e6faf89d6962
   TRZXKit: af6dc2bcca593585d079d59ca10c8912ddc81b56
-  TRZXMap: c4b90a3ed47947c9e85100d61b5d7e755cec8140
+  TRZXMap: 35a83b5987b6fdf31909598f64703cc58a0820a6
   TRZXMapBusinessCategory: b589e1d664ddf3d01d5d61ccd2ae1d57021dc51e
   TRZXNetwork: d6ce75a420218ed4b6b95f10220442f175947125
   TRZXProject: aca740ad57cfe7e673a76792a0bea2634134e1c2
@@ -167,6 +169,6 @@ SPEC CHECKSUMS:
   WMPageController: 181bcc9b1fb7c9c3466bff66012552953a547d28
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: ac6606e95cbc1b88ec9109b60e79c7f5d9158489
+PODFILE CHECKSUM: 40a430f1235f04bdb07629f9fc6f6c6a5d4414a2
 
 COCOAPODS: 1.2.0

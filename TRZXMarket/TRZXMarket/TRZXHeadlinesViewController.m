@@ -11,6 +11,7 @@
 #import "TRZXKit.h"
 #import "TRZXHeadlinesCell.h"
 #import "TRZXDIYRefresh.h"
+#import <TRZXWebViewCategory/CTMediator+TRZXWebView.h>
 
 @interface TRZXHeadlinesViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) UITableView *headlinesTableView;
@@ -97,7 +98,12 @@
 {
     //行被选中后，自动变回反选状态的方法
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    TRZXHeadlines *headlines = [self.headlinesViewModel.data objectAtIndex:indexPath.row];
 
+    UIViewController *goodsDetailVC = [[CTMediator sharedInstance] webViewControllerWithWebURL:headlines.msgView];
+    if (goodsDetailVC) {
+        [self.navigationController pushViewController:goodsDetailVC animated:YES];
+    }
 
 
 }

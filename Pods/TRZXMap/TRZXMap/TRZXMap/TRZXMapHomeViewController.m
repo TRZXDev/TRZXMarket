@@ -23,6 +23,7 @@
 @property (strong, nonatomic) TRZXMapCityViewController *mapCityViewController;
 @property (strong, nonatomic) UIButton *rightButton; //
 
+@property (nonatomic) BOOL isReloadData; //
 
 
 //筛选
@@ -31,33 +32,56 @@
 
 @implementation TRZXMapHomeViewController
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+
+
+
+    }
+    return self;
+}
+
+
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+
+    if (!self.isReloadData) {
+        self.isReloadData = !self.isReloadData;
+        [self reloadData];
+    }
+
+}
+
+
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
 
-//    [self setRightBarItemImage:[UIImage imageNamed:@"筛选"] title:@"筛选"];
+    self.titleSizeSelected = 15;
+    self.pageAnimatable = YES;
+    self.menuHeight = 40;
+    //    self.menuItemWidth = 100;
+    self.showOnNavigationBar = YES;
+    self.titleSizeSelected = 15;
+    self.progressWidth = 60;
+    self.menuViewStyle = WMMenuViewStyleSegmented;
+    self.menuViewLayoutMode = WMMenuViewLayoutModeCenter;
+    self.titleColorSelected = [UIColor whiteColor];
+    self.menuBGColor = [UIColor whiteColor];
+
+    self.titleColorNormal = [UIColor trzx_RedColor];
+    self.progressColor = [UIColor trzx_RedColor];
+    self.titles = @[@"地图", @"列表"];
+
 
     self.view.backgroundColor = [UIColor groupTableViewBackgroundColor];
 
     UIBarButtonItem *rightItem = [[UIBarButtonItem alloc]initWithCustomView:self.rightButton];
     [self.navigationItem setRightBarButtonItem:rightItem];
-//    [self.navigationItem setLeftBarButtonItem:rightItem];
-
-    self.titleSizeSelected = 15;
-    self.pageAnimatable = YES;
-    self.menuHeight = 40;
-    self.showOnNavigationBar = YES;
-    self.titleSizeSelected = 15;
-    self.menuViewStyle = WMMenuViewStyleSegmented;
-    self.menuViewLayoutMode = WMMenuViewLayoutModeCenter;
-    self.titleColorSelected = [UIColor whiteColor];
-    self.titleColorNormal = [UIColor trzx_RedColor];
-    self.progressColor = [UIColor trzx_RedColor];
-
-    self.titles = @[@"地图", @"列表"];
-    [self reloadData];
-
-
     [self.view addSubview:self.fiterBtn];
     [self.fiterBtn mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(self.view).offset(71);
@@ -97,8 +121,7 @@
         case 0: {
             self.mapViewController = [[TRZXMapViewController alloc] init];
             self.mapViewController.mapInitCompleteBlock = ^(TRZXMapViewModel *mapViewModel){
-
-                [self setRightButtonTitle:mapViewModel.locality];
+                [weakSelf setRightButtonTitle:mapViewModel.locality];
             };
             return self.mapViewController;
         }
@@ -106,7 +129,6 @@
         case 1: {
             self.mapListViewController = [[TRZXMapListViewController alloc] init];
             [self.mapListViewController setCurrentCoordinate:self.mapViewController.mapViewModel.currentCoordinate];
-
             return self.mapListViewController;
         }
         default: {
@@ -129,15 +151,7 @@
 - (void)pageController:(WMPageController *)pageController willEnterViewController:(__kindof UIViewController *)viewController withInfo:(NSDictionary *)info {
     NSLog(@"%@", info);
 
-    if ([info[@"index"] integerValue]==0) {
-        
 
-    }else{
-
-//        [self.mapListViewController setCurrentCoordinate:self.mapViewController.mapViewModel.currentCoordinate];
-
-
-    }
 
 
 }
@@ -190,12 +204,14 @@
 
 
 -(UIViewController *)mapCityViewController{
+    __weak TRZXMapHomeViewController *weakSelf = self;
+
     if (!_mapCityViewController) {
         _mapCityViewController = [[TRZXMapCityViewController alloc]init];
         _mapCityViewController.cityCallback = ^(NSDictionary *dic){
-            [self setRightButtonTitle:dic[@"name"]];
-            [self.mapViewController setCity:dic];
-            [self.mapListViewController setCity:dic];
+            [weakSelf setRightButtonTitle:dic[@"name"]];
+            [weakSelf.mapViewController setCity:dic];
+            [weakSelf.mapListViewController setCity:dic];
         };
     }
     return _mapCityViewController;
@@ -251,13 +267,13 @@
 
 
 /*
-#pragma mark - Navigation
+ #pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+ // Get the new view controller using [segue destinationViewController].
+ // Pass the selected object to the new view controller.
+ }
+ */
 
 @end

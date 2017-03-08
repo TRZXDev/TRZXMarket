@@ -15,6 +15,8 @@
 @property (nonatomic, copy) NSString *msgTitle; // 标题
 @property (nonatomic, copy) NSString *msgDigest; // 内容
 @property (nonatomic, copy) NSString *authName; // 交易中心名称
+@property (nonatomic, copy) NSString *msgView; // 详情URL
+
 
 
 @end
